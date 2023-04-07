@@ -105,16 +105,32 @@
     }
 }
 
-@media screen and (max-width:416px) { 
+@media screen and (max-width:500px) {
+    /* position: relative;  */
     .img-text {
-    left: 40%;
-    top: 45%;
+    left: 50%;
+    top: 50%;
     }
 }
-
+@media screen and (max-width:390px) {
+    /* position: relative;  */
+    .img-text {
+    left: 75%;
+    top: 60%;
+    }
+}
 .head-img2{
     margin: 15% auto;
     width: 70%;
+}
+
+.interest-on-saving {
+    margin: 64px 0;
+}
+@media screen and (max-width:992px) {
+    .interest-on-saving img {
+        margin: 64px 0 0 0;
+    }
 }
 
 .agend2 {
@@ -133,8 +149,12 @@
 
 }
 
+.packages {
+    margin: 100px 0;
+}
+
 .packages .card {
-    width: 90%;
+    width: 100%;
     box-shadow: 6px 4px 8px 0 rgba(0, 0, 0, 0.2), 6px 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
 
@@ -162,7 +182,7 @@
 
 .packages .card-body {
     height: 300px;
-    padding: 15%;
+    padding: 15% 5%;
     font-size: 14px;
 }
 .card-text strong {
@@ -183,6 +203,14 @@
     /* height: 400px; */
     /* margin: auto 0; */
     /* margin-bottom: 80px; */
+}
+@media screen and (max-width:600px) {
+    .packages .card {
+        max-width: 100%;
+    }
+    .m-5 {
+        margin: 0 !important;
+    }
 }
 
 .inner {
